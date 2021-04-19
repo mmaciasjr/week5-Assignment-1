@@ -21,3 +21,9 @@ h1{
     font-size: 1.7rem;
     color: var(--White);
 }
+
+p {
+    font-famiy: 'Open Sans', san-serif;
+    color: var(--White);
+    font-size: 0.7rem;
+}
