@@ -5,7 +5,8 @@
 
     --Violet: hsl(257, 40%, 49%);
     --Soft-Magenta: hsl(300, 69%, 71%);
-    --White: hsl(0, 100%, 100%);
+    --White: hsl(0, 100%, 100%)
+
 }
 
 body{
@@ -40,4 +41,26 @@ p {
     outline: none;
     border: 3px #000;
 
+}
+
+.registerButton:active {
+    background-color: var(--Soft-Magenta);
+    color: var(--White);
+}
+
+.faceInstaTwit {
+    color: var(--White);
+    background0color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    font-family: 'Open Sans', sans-serif;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid var(--White);
+}
+
+.faceInstaTwit:active {
+    color: var(--Soft-Magenta);
+    border: 1px solid var(--Soft-Magenta);
 }
